@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: linear-gradient(135deg, #fce4ec 0%, #f8bbd0 50%, #fce4ec 100%);
+    min-height: 100vh;
+    font-family: 'Inter', Arial, sans-serif;
+}
+
+.page-wrapper {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 40px 24px;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 36px;
+}
+
+.header-logo {
+    font-size: 36px;
+    margin-bottom: 8px;
+}
+
+.header h1 {
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: #880e4f;
+    letter-spacing: -0.5px;
+}
+
+.header p {
+    margin-top: 8px;
+    font-size: 0.95rem;
+    color: #ad1457;
+    font-weight: 400;
+}
+
+.card {
+    background: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 4px 24px rgba(136, 14, 79, 0.10);
+    padding: 28px 32px;
+    margin-bottom: 24px;
+}
+
+.filter-label {
+    font-size: 0.85rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: #880e4f;
+    margin-bottom: 14px;
+}
+
+.radio-group {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+
+.radio-group label {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    background: #fce4ec;
+    border: 2px solid #f48fb1;
+    border-radius: 24px;
+    padding: 8px 20px;
+    font-size: 0.92rem;
+    font-weight: 600;
+    color: #880e4f;
+    cursor: pointer;
+    transition: background 0.18s, border-color 0.18s, color 0.18s;
+    user-select: none;
+}
+
+.radio-group label:hover {
+    background: #f8bbd0;
+    border-color: #e91e8c;
+}
+
+.radio-group input[type="radio"] {
+    accent-color: #880e4f;
+    width: 16px;
+    height: 16px;
+}
+
+.chart-card {
+    background: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 4px 24px rgba(136, 14, 79, 0.10);
+    padding: 8px 8px 8px 8px;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 28px;
+    font-size: 0.8rem;
+    color: #ad1457;
+    opacity: 0.7;
+}
